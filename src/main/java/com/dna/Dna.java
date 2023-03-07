@@ -1,5 +1,10 @@
 package com.dna;
 import java.util.*;
+
+/*
+* Dna对象用于描述某一个对象的数据结构的数据
+* */
+
 public class Dna{
     private long id;
     private String businessType;
@@ -143,8 +148,8 @@ public class Dna{
         return vds;
     }
 
-    public void setVds(List<Vd> vds) {
-        this.vds = vds;
+    public  void addVds(Vd attr){
+        this.vds.add(attr);
     }
 
     public Date getLastTime() {
@@ -154,4 +159,6 @@ public class Dna{
     public void setLastTime(Date lastTime) {
         this.lastTime = lastTime;
     }
+    //public static Dna getDna(List<String>  )
+
 }

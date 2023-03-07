@@ -1,0 +1,18 @@
+{
+  "businessType": "",
+  "dnaCode": "",
+  "dnaName": "",
+  "instType": "",
+  "total":  "" ,
+  "parentId":  ,
+  "cells": [
+    {
+      "id":,
+      "operationFlag":,
+      "rootId":,
+      "parentId":,
+      "dnaCode":,
+      "birthday": " "
+    }]
+
+}

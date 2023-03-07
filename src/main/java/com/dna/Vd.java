@@ -94,6 +94,12 @@ public class Vd implements Cloneable{
 /*    public VdExtension getExtension() {
         return extension;
     }*/
+    public Vd(String vdName,String vdDescription,String dataType){
+        this.vdName = vdName;
+        this.vdDescription = vdDescription;
+        this.dataType = dataType;
+    }
+
 
 
 }
